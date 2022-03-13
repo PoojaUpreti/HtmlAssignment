@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <style>
+        .form
+        {
+        border: 2px solid black;
+       margin: 10px;
+       padding: 50px;
+       width:500px;
+       position:relative;
+       left:500px;
+             }
+
+
+     .header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+   }
+ .header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a {
+  float: left;
+  color: green;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.header-right {
+  float: right;
+}
+
+#pooja
+{
+ overflow: hidden;
+  background-color:#D3D3D3;
+  padding: 20px 10px;
+  color:white;
+
+
+
+
+}
+#hi{
+background-color:green;
+}
+#Os
+{
+background-color: green;
+width:450px;
+}
+#pro
+{
+background-color: green;
+width:450px;
+}
+#Sev
+{
+background-color: green;
+width:450px;
+}
+#send
+{
+overflow:hidden;
+  background-color:#D3D3D3;
+  padding: 20px 10px;
+  color:white;
+  height:30px;
+  width:530px;
+}
+    </style>
+
+</head>
+<body>
+
+<div class="header">
+    <a href="#default" class="logo">TO THE NEW</a>
+    <div class="header-right">
+        <a class="active" href="#home">Home</a>
+        <a href="#contact">Quick Help</a>
+
+    </div>
+</div>
+
+<div class ="form">
+    <div id="pooja">
+        <h1>Bug Report</h1>
+    </div>
+
+
+
+
+    <form>
+
+        Title *<br><input type = "text" size="50"/><br><br>
+        Description <br>
+        <textarea rows="5" cols="60" >
+</textarea><br><br>
+
+        <label for>Opreating System</label><br>
+        <select id="Os">
+
+            <option value="Windows Xp">Windows Xp</option>
+            <option value="Ubantu">Ubantu</option>
+            <option value="MAc">Mac</option>
+        </select>
+        <br><br>
+
+        <label>  Product</label><br>
+        <select id="pro">
+            <option value="Formoid">Form id</option>
+            <option value="xyz">xyz</option>
+            <option value="MAc">Mac
+            </option>
+        </select><br><br>
+        Version<br>
+        <textarea rows="2" cols="20" >
+</textarea><br><br>
+        <label>Liscense:</label>
+        <ul><li>Free</li>  <li>Business</li></ul>
+
+        <label>  Severity</label><br>
+        <select id="Sev">
+            <option value="Critical">Critical</option>
+            <option value="Severe">Severe</option>
+            <option value="Medium">Medium</option>
+            </option>
+        </select><br><br>
+        <label>Attachments</label><br>
+        <input type="file" id="myFile"name="filename"><br><br>
+
+        <div id="send">
+            <button type="button">Send</button>
+        </div>
+
+
+    </form>
+</div>
+
+
+
+</body>
+</html>
+
